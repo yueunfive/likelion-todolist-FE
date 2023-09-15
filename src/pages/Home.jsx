@@ -6,8 +6,6 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Home = () => {
-  const apiURL =
-    "https://port-0-likelion-todolist-4fju66f2clmkuz6pr.sel5.cloudtype.app";
   const navigate = useNavigate();
   const [selectedDate, setSelectedDate] = useState(new Date());
 
@@ -24,6 +22,7 @@ const Home = () => {
     navigate(`/todoPage/${formattedDate}`);
   };
 
+  // 원래는 로그아웃
   const handleLogout = () => {
     navigate("/");
   };
