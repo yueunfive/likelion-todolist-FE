@@ -25,17 +25,7 @@ const Home = () => {
   };
 
   const handleLogout = () => {
-    const userId = localStorage.getItem("userId");
-
-    axios
-      .get(`${apiURL}/api/users/log-out`)
-      .then((response) => {
-        console.log(response.data);
-        navigate("/");
-      })
-      .catch((error) => {
-        console.error("에러 발생:", error);
-      });
+    navigate("/");
   };
 
   return (

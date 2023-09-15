@@ -1,6 +1,6 @@
 ## 멋쟁이사자처럼 FE:SSION 최종과제
 
-: 일정관리 웹 어플리케이션 : 퍼블리싱 및 API 연동(with React)
+일정관리 웹 어플리케이션 : 퍼블리싱 및 API 연동(with React)
 
 도메인(Vercel) : https://likelion-todolist-fe.vercel.app/
 <br>
